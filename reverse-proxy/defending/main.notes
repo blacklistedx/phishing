@@ -1,0 +1,1 @@
+Detecting reverse proxy phishing attacks in an Office 365 inbox is a complex task that often involves sophisticated analysis and threat intelligence. Reverse proxy phishing attacks typically involve impersonation of trusted domains, making them challenging to detect. Please refer to main.cpp for a high-level example of how you might approach detecting such attacks using C++. 

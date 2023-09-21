@@ -1,0 +1,46 @@
+//Detecting phishing attacks within an Office 365 inbox involves leveraging the platform's built-in security features and potentially enhancing them with additional customizations. Here's a simplified overview of the steps and considerations for detecting phishing attacks within an Office 365 inbox:
+
+    Office 365 Security Features:
+        Make sure that Office 365's built-in security features, such as Exchange Online Protection (EOP) and Advanced Threat Protection (ATP), are properly configured and up to date.
+        Enable features like Safe Links and Safe Attachments, which can help identify and block malicious links and attachments.
+
+    Email Filtering and Classification:
+        Configure email filtering rules to categorize incoming emails based on their characteristics.
+        Use built-in classifiers to identify known phishing emails.
+
+    Machine Learning and Behavioral Analysis:
+        Leverage Office 365's machine learning capabilities to detect unusual email behavior patterns.
+        Monitor user activity and identify deviations from normal behavior.
+
+    Anti-Phishing Policies:
+        Implement anti-phishing policies that include customized rules and conditions for detecting phishing emails.
+        Consider creating policies that check for common phishing indicators, such as suspicious sender domains, keywords, or attachment types.
+
+    User Education and Training:
+        Educate Office 365 users about the risks of phishing attacks and provide guidance on how to recognize and report suspicious emails.
+        Encourage users to be cautious with emails containing links or attachments, especially if they're unexpected or from unknown senders.
+
+    Phishing Simulation Exercises:
+        Conduct phishing simulation exercises to assess how well users can identify phishing attempts.
+        Use the results to tailor training and awareness efforts.
+
+    Email Quarantine and Reporting:
+        Implement an email quarantine system where potentially suspicious emails are held for further analysis.
+        Allow users to report suspicious emails easily, which can aid in identifying emerging threats.
+
+    Threat Intelligence Feeds:
+        Integrate threat intelligence feeds into Office 365 to receive real-time information on known phishing threats.
+        Use this data to enhance your email filtering and detection capabilities.
+
+    Incident Response Plan:
+        Develop a comprehensive incident response plan specific to phishing attacks.
+        Define procedures for investigating, mitigating, and recovering from phishing incidents.
+
+    Regular Updates and Monitoring:
+        Keep Office 365 and security configurations up to date with the latest patches and updates.
+        Continuously monitor email traffic and security logs for suspicious activity.
+
+    Third-Party Solutions:
+        Consider using third-party email security solutions that can provide additional layers of protection, such as advanced threat detection and user behavior analysis.
+
+//In our case see phish-detection.c++ as a possible third party solution to solve detection.
